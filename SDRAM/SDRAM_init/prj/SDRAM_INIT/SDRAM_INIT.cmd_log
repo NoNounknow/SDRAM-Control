@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.syr" 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.syr" 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.syr" 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_init/prj/SDRAM_INIT/SDRAM_INIT.syr" 

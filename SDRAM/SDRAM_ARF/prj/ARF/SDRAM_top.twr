@@ -1,0 +1,134 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 2 -n
+3 -fastpaths -xml SDRAM_top.twx SDRAM_top.ncd -o SDRAM_top.twr SDRAM_top.pcf
+
+Design file:              SDRAM_top.ncd
+Physical constraint file: SDRAM_top.pcf
+Device,package,speed:     xc6slx9,tqg144,C,-2 (PRODUCTION 1.23 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock Sys_clk
+------------+------------+------------+------------+------------+------------------+--------+
+            |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
+Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
+------------+------------+------------+------------+------------+------------------+--------+
+Rst_n       |    8.186(R)|      SLOW  |   -1.249(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+            |    3.225(R)|      SLOW  |   -0.972(R)|      FAST  |VGA_CLOCK         |   0.000|
+SDRAM_DQ<0> |    2.751(R)|      SLOW  |   -0.978(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<1> |    2.877(R)|      SLOW  |   -1.116(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<2> |    3.650(R)|      SLOW  |   -1.540(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<3> |    3.654(R)|      SLOW  |   -1.464(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<4> |    3.068(R)|      SLOW  |   -1.212(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<5> |    3.164(R)|      SLOW  |   -1.195(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<6> |    3.870(R)|      SLOW  |   -1.630(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<7> |    4.281(R)|      SLOW  |   -1.750(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<8> |    3.652(R)|      SLOW  |   -1.531(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<9> |    4.043(R)|      SLOW  |   -1.697(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<10>|    3.708(R)|      SLOW  |   -1.599(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<11>|    3.911(R)|      SLOW  |   -1.727(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<12>|    3.258(R)|      SLOW  |   -1.294(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<13>|    3.647(R)|      SLOW  |   -1.445(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<14>|    3.442(R)|      SLOW  |   -1.497(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<15>|    3.375(R)|      SLOW  |   -1.283(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+rx          |    2.745(R)|      SLOW  |   -0.943(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+------------+------------+------------+------------+------------+------------------+--------+
+
+Clock Sys_clk to Pad
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+                |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
+Destination     |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+H_Sync_sign     |         9.094(R)|      SLOW  |         4.017(R)|      FAST  |VGA_CLOCK         |   0.000|
+SDRAM_A_ADDR<0> |        10.770(R)|      SLOW  |         4.620(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<1> |        11.277(R)|      SLOW  |         4.747(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<2> |        11.128(R)|      SLOW  |         4.696(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<3> |        11.083(R)|      SLOW  |         4.718(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<4> |        11.918(R)|      SLOW  |         4.876(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<5> |        11.928(R)|      SLOW  |         4.799(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<6> |        11.616(R)|      SLOW  |         4.762(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<7> |        11.322(R)|      SLOW  |         4.759(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<8> |        11.291(R)|      SLOW  |         4.800(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<9> |        11.713(R)|      SLOW  |         5.072(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<10>|        10.212(R)|      SLOW  |         4.273(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_A_ADDR<11>|        11.747(R)|      SLOW  |         5.216(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_CAS_N     |        11.682(R)|      SLOW  |         4.816(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<0>     |         9.077(R)|      SLOW  |         3.533(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<1>     |         9.269(R)|      SLOW  |         3.491(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<2>     |        10.186(R)|      SLOW  |         4.054(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<3>     |        10.186(R)|      SLOW  |         3.950(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<4>     |        10.597(R)|      SLOW  |         3.940(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<5>     |        10.597(R)|      SLOW  |         4.028(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<6>     |        11.719(R)|      SLOW  |         4.532(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<7>     |        11.719(R)|      SLOW  |         4.488(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<8>     |        10.452(R)|      SLOW  |         3.520(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<9>     |        10.452(R)|      SLOW  |         3.685(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<10>    |        10.423(R)|      SLOW  |         3.598(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<11>    |        10.423(R)|      SLOW  |         3.603(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<12>    |        10.234(R)|      SLOW  |         3.400(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<13>    |        10.234(R)|      SLOW  |         3.501(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<14>    |        10.190(R)|      SLOW  |         3.387(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_DQ<15>    |        10.190(R)|      SLOW  |         3.387(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_RAS_N     |        12.395(R)|      SLOW  |         4.772(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+SDRAM_WE_N      |        10.709(R)|      SLOW  |         4.361(R)|      FAST  |CLOCK_50MHZ       |   0.000|
+V_Sync_sign     |         8.700(R)|      SLOW  |         3.691(R)|      FAST  |VGA_CLOCK         |   0.000|
+blue_sign<0>    |        10.460(R)|      SLOW  |         4.122(R)|      FAST  |VGA_CLOCK         |   0.000|
+blue_sign<1>    |        10.549(R)|      SLOW  |         4.128(R)|      FAST  |VGA_CLOCK         |   0.000|
+grenn_sign<0>   |        10.933(R)|      SLOW  |         4.114(R)|      FAST  |VGA_CLOCK         |   0.000|
+grenn_sign<1>   |        11.013(R)|      SLOW  |         4.161(R)|      FAST  |VGA_CLOCK         |   0.000|
+grenn_sign<2>   |        11.476(R)|      SLOW  |         3.950(R)|      FAST  |VGA_CLOCK         |   0.000|
+red_sign<0>     |        11.697(R)|      SLOW  |         3.887(R)|      FAST  |VGA_CLOCK         |   0.000|
+red_sign<1>     |        11.693(R)|      SLOW  |         3.671(R)|      FAST  |VGA_CLOCK         |   0.000|
+red_sign<2>     |        11.837(R)|      SLOW  |         4.077(R)|      FAST  |VGA_CLOCK         |   0.000|
+----------------+-----------------+------------+-----------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Sys_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Sys_clk        |    5.922|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+Sys_clk        |SDRAM_CLK      |    8.034|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Sep 22 12:09:18 2023 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 184 MB
+
+
+

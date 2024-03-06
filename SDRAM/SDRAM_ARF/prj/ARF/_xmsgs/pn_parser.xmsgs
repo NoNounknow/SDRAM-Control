@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated   -->
+<!--     by the Xilinx ISE software.  Any direct editing or        -->
+<!--     changes made to this file may result in unpredictable     -->
+<!--     behavior or data corruption.  It is strongly advised that -->
+<!--     users do not edit the contents of this file.              -->
+<!--                                                               -->
+<!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
+
+<messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_ARF.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_ARF.v</arg>&quot; Line <arg fmt="%d" index="2">15</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h&apos; in file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_ARF.v&quot; line 15
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_CTRL_TOP.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_CTRL_TOP.v</arg>&quot; Line <arg fmt="%d" index="2">33</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h&apos; in file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_CTRL_TOP.v&quot; line 33
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_INIT.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_INIT.v</arg>&quot; Line <arg fmt="%d" index="2">9</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h&apos; in file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_INIT.v&quot; line 9
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_RD.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_RD.v</arg>&quot; Line <arg fmt="%d" index="2">31</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h&apos; in file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_RD.v&quot; line 31
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_WR.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1065" >&quot;<arg fmt="%s" index="1">D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_WR.v</arg>&quot; Line <arg fmt="%d" index="2">25</arg>. <arg fmt="%s" index="3">Include file found: &apos;D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h&apos; in file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_WR.v&quot; line 25
+</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_top.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/rx_teach.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/three_verilog/SDRAM/SDRAM_TOP/rtl/vga_ctl.v&quot; into library work</arg>
+</msg>
+
+</messages>
+

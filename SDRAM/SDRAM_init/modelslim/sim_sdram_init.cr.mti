@@ -1,0 +1,33 @@
+D:/three_verilog/SDRAM/SDRAM_init/sim/tb_top_sdram.v {1 {vlog -work work -vopt -stats=none D:/three_verilog/SDRAM/SDRAM_init/sim/tb_top_sdram.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module tb_top_sdram
+
+Top level modules:
+	tb_top_sdram
+
+} {} {}} D:/three_verilog/SDRAM/SDRAM_init/sim/sdram_model_plus.v {2 {vlog -work work -vopt -stats=none D:/three_verilog/SDRAM/SDRAM_init/sim/sdram_model_plus.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module sdram_model_plus
+** Warning: D:/three_verilog/SDRAM/SDRAM_init/sim/sdram_model_plus.v(837): (vlog-2576) [BSOB] - Bit-select into 'Dqm' is out of bounds.
+** Warning: D:/three_verilog/SDRAM/SDRAM_init/sim/sdram_model_plus.v(838): (vlog-2576) [BSOB] - Bit-select into 'Dqm' is out of bounds.
+
+Top level modules:
+	sdram_model_plus
+
+} {} {}} D:/three_verilog/SDRAM/SDRAM_init/rtl/SDRAM_top.v {1 {vlog -work work -vopt -stats=none D:/three_verilog/SDRAM/SDRAM_init/rtl/SDRAM_top.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module SDRAM_top
+
+Top level modules:
+	SDRAM_top
+
+} {} {}} D:/three_verilog/SDRAM/SDRAM_init/rtl/SDRAM_INIT.v {2 {vlog -work work -vopt -stats=none D:/three_verilog/SDRAM/SDRAM_init/rtl/SDRAM_INIT.v
+Model Technology ModelSim SE-64 vlog 10.7 Compiler 2017.12 Dec  7 2017
+-- Compiling module SDRAM_INIT
+** Warning: D:/three_verilog/SDRAM/SDRAM_init/rtl/SDRAM_INIT.v(34): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: D:/three_verilog/SDRAM/SDRAM_init/rtl/SDRAM_INIT.v(61): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	SDRAM_INIT
+
+} {} {}}

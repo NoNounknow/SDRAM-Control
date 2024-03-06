@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\three_verilog\SDRAM\SDRAM_ARF\prj\ARF\SDRAM_top.ncd
+OUTFILE=D:\three_verilog\SDRAM\SDRAM_ARF\prj\ARF\SDRAM_top.bit
+FAMILY=Spartan6
+PART=xc6slx9-2tqg144
+WORKINGDIR=D:\three_verilog\SDRAM\SDRAM_ARF\prj\ARF
+LICENSE=WebPack
+USER_INFO=_

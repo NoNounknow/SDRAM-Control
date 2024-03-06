@@ -1,0 +1,2 @@
+verilog work ../../PLL_base50mhz_25mhz.v
+verilog work ../example_design/PLL_base50mhz_25mhz_exdes.v

@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../SDRAM_TOP/prj/ip -sd ipcore_dir -nt timestamp -uc D:/three_verilog/SDRAM/SDRAM_TOP/xra/Top_SDram_contrain.ucf -p xc6slx9-tqg144-2 SDRAM_top.ngc SDRAM_top.ngd  
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../SDRAM_TOP/prj/ip -sd ipcore_dir -nt timestamp -uc D:/three_verilog/SDRAM/SDRAM_TOP/xra/Top_SDram_contrain.ucf -p xc6slx9-tqg144-2 SDRAM_top.ngc SDRAM_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SDRAM_top_map.ncd SDRAM_top.ngd SDRAM_top.pcf 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../SDRAM_TOP/prj/ip -sd ipcore_dir -nt timestamp -uc D:/three_verilog/SDRAM/SDRAM_TOP/xra/Top_SDram_contrain.ucf -p xc6slx9-tqg144-2 SDRAM_top.ngc SDRAM_top.ngd  
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../SDRAM_TOP/prj/ip -sd ipcore_dir -nt timestamp -uc D:/three_verilog/SDRAM/SDRAM_TOP/xra/Top_SDram_contrain.ucf -p xc6slx9-tqg144-2 SDRAM_top.ngc SDRAM_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SDRAM_top_map.ncd SDRAM_top.ngd SDRAM_top.pcf 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../SDRAM_TOP/prj/ip -sd ipcore_dir -nt timestamp -uc D:/three_verilog/SDRAM/SDRAM_TOP/xra/Top_SDram_contrain.ucf -p xc6slx9-tqg144-2 SDRAM_top.ngc SDRAM_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SDRAM_top_map.ncd SDRAM_top.ngd SDRAM_top.pcf 
+par -w -intstyle ise -ol high -mt off SDRAM_top_map.ncd SDRAM_top.ncd SDRAM_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml SDRAM_top.twx SDRAM_top.ncd -o SDRAM_top.twr SDRAM_top.pcf 
+bitgen -intstyle ise -f SDRAM_top.ut SDRAM_top.ncd 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../SDRAM_TOP/prj/ip -sd ipcore_dir -nt timestamp -uc D:/three_verilog/SDRAM/SDRAM_TOP/xra/Top_SDram_contrain.ucf -p xc6slx9-tqg144-2 SDRAM_top.ngc SDRAM_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SDRAM_top_map.ncd SDRAM_top.ngd SDRAM_top.pcf 
+par -w -intstyle ise -ol high -mt off SDRAM_top_map.ncd SDRAM_top.ncd SDRAM_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml SDRAM_top.twx SDRAM_top.ncd -o SDRAM_top.twr SDRAM_top.pcf 
+bitgen -intstyle ise -f SDRAM_top.ut SDRAM_top.ncd 
+xst -intstyle ise -ifn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.xst" -ofn "D:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF/SDRAM_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../SDRAM_TOP/prj/ip -sd ipcore_dir -nt timestamp -uc D:/three_verilog/SDRAM/SDRAM_TOP/xra/Top_SDram_contrain.ucf -p xc6slx9-tqg144-2 SDRAM_top.ngc SDRAM_top.ngd  
+map -intstyle ise -p xc6slx9-tqg144-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o SDRAM_top_map.ncd SDRAM_top.ngd SDRAM_top.pcf 
+par -w -intstyle ise -ol high -mt off SDRAM_top_map.ncd SDRAM_top.ncd SDRAM_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml SDRAM_top.twx SDRAM_top.ncd -o SDRAM_top.twr SDRAM_top.pcf 
+bitgen -intstyle ise -f SDRAM_top.ut SDRAM_top.ncd 

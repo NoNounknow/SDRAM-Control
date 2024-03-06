@@ -1,0 +1,2 @@
+verilog work "../../rtl/SDRAM_INIT.v"
+verilog work "../../rtl/SDRAM_top.v"

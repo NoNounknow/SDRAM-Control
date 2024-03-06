@@ -1,0 +1,329 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/three_verilog/SDRAM/SDRAM_ARF/prj/ARF
+T_opt
+!s110 1695302516
+VdRIgk6mJS^X_Z9`f_KIHZ1
+Z1 04 12 4 work tb_top_sdram fast 0
+Z2 04 4 4 work glbl fast 0
+=6-847b57627442-650c4374-30-50d4
+Z3 o-quiet -auto_acc_if_foreign -work work -L xilinxcorelib_ver -L unisims_ver -L unimacro_ver -L secureip +acc
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;10.5;63
+T_opt1
+!s110 1695203802
+VFbRBMLn`0jG<X2X0@N2:c2
+R1
+R2
+=1-847b57627442-650ac1da-126-58d4
+R3
+R4
+n@_opt1
+R5
+R0
+T_opt2
+!s110 1694946711
+V@HRYO4WnB=SNf[<4F61_f2
+04 9 4 work SDRAM_top fast 0
+R2
+=1-847b57627442-6506d597-2f-6c38
+R3
+R4
+n@_opt2
+R5
+R0
+vAS_FIFO_w2048x16_r4096x8
+Z6 !s110 1695300457
+!i10b 1
+!s100 X^6E>U>[a<1WE9@0[VToe0
+IOCF06Ye6jcnh<@YKD5GHh1
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1695277140
+8ipcore_dir/AS_FIFO_w2048x16_r4096x8.v
+Fipcore_dir/AS_FIFO_w2048x16_r4096x8.v
+Z8 L0 39
+Z9 OL;L;10.5;63
+r1
+!s85 0
+31
+Z10 !s108 1695300457.000000
+!s107 ipcore_dir/AS_FIFO_w2048x16_r4096x8.v|
+!s90 -reportprogress|300|ipcore_dir/AS_FIFO_w2048x16_r4096x8.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+n@a@s_@f@i@f@o_w2048x16_r4096x8
+vAS_FIFO_w2048x8_r1024x16
+R6
+!i10b 1
+!s100 4_`D<LEgUhiocLc^j^kZP0
+I7AhfMI<Ce=B6G5gY?H>Cb3
+R7
+R0
+w1694945368
+8../../../SDRAM_TOP/prj/ip/AS_FIFO_w2048x8_r1024x16.v
+F../../../SDRAM_TOP/prj/ip/AS_FIFO_w2048x8_r1024x16.v
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../../../SDRAM_TOP/prj/ip/AS_FIFO_w2048x8_r1024x16.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/prj/ip/AS_FIFO_w2048x8_r1024x16.v|
+!i113 0
+R11
+R4
+n@a@s_@f@i@f@o_w2048x8_r1024x16
+vglbl
+R6
+!i10b 1
+!s100 UlJ]9LUWO:ZWoRO62F9fW3
+INz3046GECC=X7FgQ2]FR>3
+R7
+R0
+w1381681120
+8C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+FC:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v
+L0 5
+R9
+r1
+!s85 0
+31
+R10
+!s107 C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!s90 -reportprogress|300|C:/Xilinx/14.7/ISE_DS/ISE/verilog/src/glbl.v|
+!i113 0
+R11
+R4
+vPLL_base50mhz_25mhz
+R6
+!i10b 1
+!s100 5IfVmho_C3m:f^BHm8<AS1
+IAk4V^5EYJL;PF=>_MmZI70
+R7
+R0
+w1695193500
+8ipcore_dir/PLL_base50mhz_25mhz.v
+Fipcore_dir/PLL_base50mhz_25mhz.v
+L0 69
+R9
+r1
+!s85 0
+31
+R10
+!s107 ipcore_dir/PLL_base50mhz_25mhz.v|
+!s90 -reportprogress|300|ipcore_dir/PLL_base50mhz_25mhz.v|
+!i113 0
+R11
+R4
+n@p@l@l_base50mhz_25mhz
+vSDRAM_ARF
+R6
+!i10b 1
+!s100 :H6CL]z0DeCn8P_2QNj]42
+IfhRU6zb=DBOc5^:h`ThK@1
+R7
+R0
+w1694847407
+8../../../SDRAM_TOP/rtl/SDRAM_ARF.v
+F../../../SDRAM_TOP/rtl/SDRAM_ARF.v
+Z12 FD:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h|../../../SDRAM_TOP/rtl/SDRAM_ARF.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/rtl/SDRAM_ARF.v|
+!i113 0
+R11
+R4
+n@s@d@r@a@m_@a@r@f
+vSDRAM_CTRL_TOP
+R6
+!i10b 1
+!s100 GLGNTHU8^BNiS]:MC:<Kg0
+ILZ^NcGBAN=_9ZDlf_SHL^2
+R7
+R0
+w1695280284
+8../../../SDRAM_TOP/rtl/SDRAM_CTRL_TOP.v
+F../../../SDRAM_TOP/rtl/SDRAM_CTRL_TOP.v
+R12
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h|../../../SDRAM_TOP/rtl/SDRAM_CTRL_TOP.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/rtl/SDRAM_CTRL_TOP.v|
+!i113 0
+R11
+R4
+n@s@d@r@a@m_@c@t@r@l_@t@o@p
+vSDRAM_INIT
+R6
+!i10b 1
+!s100 J?C2VXO[l?[Z4;_X8_68V2
+IWBP0nP[V7ge6lD_9EH2d[2
+R7
+R0
+w1694933328
+8../../../SDRAM_TOP/rtl/SDRAM_INIT.v
+F../../../SDRAM_TOP/rtl/SDRAM_INIT.v
+R12
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h|../../../SDRAM_TOP/rtl/SDRAM_INIT.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/rtl/SDRAM_INIT.v|
+!i113 0
+R11
+R4
+n@s@d@r@a@m_@i@n@i@t
+vsdram_model_plus
+R6
+!i10b 1
+!s100 V`LS]bN3XmGlGAShj<C^D3
+IY^]=B[b[E^^HnMRhJ[>i81
+R7
+R0
+w1558863304
+8../../sim/sdram_model_plus.v
+F../../sim/sdram_model_plus.v
+L0 58
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../../sim/sdram_model_plus.v|
+!s90 -reportprogress|300|../../sim/sdram_model_plus.v|
+!i113 0
+R11
+R4
+vSDRAM_RD
+R6
+!i10b 1
+!s100 UL@7^dX8RB]k6OA_@AQiM3
+ImUeCM3GK3VQ320G7_1H:j3
+R7
+R0
+w1695299909
+8../../../SDRAM_TOP/rtl/SDRAM_RD.v
+F../../../SDRAM_TOP/rtl/SDRAM_RD.v
+R12
+L0 3
+R9
+r1
+!s85 0
+31
+R10
+!s107 D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h|../../../SDRAM_TOP/rtl/SDRAM_RD.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/rtl/SDRAM_RD.v|
+!i113 0
+R11
+R4
+n@s@d@r@a@m_@r@d
+vSDRAM_top
+R6
+!i10b 1
+!s100 `NeiL^=_<mfmke]9QH5;G0
+ILzWEed>71`_R_2FOD5LeA0
+R7
+R0
+w1695205671
+8../../../SDRAM_TOP/rtl/SDRAM_top.v
+F../../../SDRAM_TOP/rtl/SDRAM_top.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../../../SDRAM_TOP/rtl/SDRAM_top.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/rtl/SDRAM_top.v|
+!i113 0
+R11
+R4
+n@s@d@r@a@m_top
+vSDRAM_WR
+!s110 1695302509
+!i10b 1
+!s100 Q0legFR<0UmLbDOO>R>N>3
+Id7K_Di0986N^dn41V73Qd2
+R7
+R0
+w1695302492
+8D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_WR.v
+FD:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_WR.v
+R12
+L0 3
+R9
+r1
+!s85 0
+31
+!s108 1695302509.000000
+!s107 D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h|D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_WR.v|
+!s90 -reportprogress|300|-L|mtiAvm|-L|mtiRnm|-L|mtiOvm|-L|mtiUvm|-L|mtiUPF|-L|infact|D:/three_verilog/SDRAM/SDRAM_TOP/rtl/SDRAM_WR.v|
+!i113 0
+R11
+R4
+n@s@d@r@a@m_@w@r
+vtb_top_sdram
+R6
+!i10b 1
+!s100 fSQCnnfCaeNV[XOP@Ic>B0
+I9d]=VT?SZ`<67QfG3RYcX0
+R7
+R0
+w1695280432
+8../../../SDRAM_TOP/sim_rd/tb_top_sdram.v
+F../../../SDRAM_TOP/sim_rd/tb_top_sdram.v
+L0 3
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../../../SDRAM_TOP/sim_rd/tb_top_sdram.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/sim_rd/tb_top_sdram.v|
+!i113 0
+R11
+R4
+vvga_ctrl
+R6
+!i10b 1
+!s100 FfZ6aCYI@ZQAPRVKTBk>C0
+IiZ1WYeITRig79?_>d5:5U2
+R7
+R0
+w1695281313
+8../../../SDRAM_TOP/rtl/vga_ctl.v
+F../../../SDRAM_TOP/rtl/vga_ctl.v
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+!s107 ../../../SDRAM_TOP/rtl/vga_ctl.v|
+!s90 -reportprogress|300|../../../SDRAM_TOP/rtl/vga_ctl.v|
+!i113 0
+R11
+R4

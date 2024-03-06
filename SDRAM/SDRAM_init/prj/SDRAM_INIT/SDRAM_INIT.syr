@@ -1,0 +1,420 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.29 secs
+ 
+--> Reading design: SDRAM_INIT.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "SDRAM_INIT.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "SDRAM_INIT"
+Output Format                      : NGC
+Target Device                      : xc6slx9-2-tqg144
+
+---- Source Options
+Top Module Name                    : SDRAM_INIT
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "D:\three_verilog\SDRAM\SDRAM_init\rtl\sdram_init.v" into library work
+Parsing module <SDRAM_INIT>.
+Parsing verilog file "D:/three_verilog/SDRAM/SDRAM_init/rtl/sdram_param.h" included at line 9.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <SDRAM_INIT>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <SDRAM_INIT>.
+    Related source file is "D:\three_verilog\SDRAM\SDRAM_init\rtl\sdram_init.v".
+        COMMAND_MRS = 4'b0000
+        COMMAND_ARF = 4'b0001
+        COMMAND_PRE = 4'b0010
+        COMMAND_BA = 4'b0011
+        COMMAND_WRITE = 4'b0100
+        COMMAND_READ = 4'b0101
+        COMMAND_interrupt = 4'b0110
+        COMMAND_NOP = 4'b0111
+        TIME_WAIT_ABOVE_100US = 10000
+        TIME_PRE_CHARGE = 2
+        TIME_Auto_refresh = 5
+        TIME_MRS_done_wait = 2
+        INIT_OPMODE_Brust_Mode = 1'b0
+        INIT_OPMODE_STANDRD = 2'b00
+        INIT_CAS_Latency = 3
+        INIT_Burst_type = 1'b0
+        INIT_Burst_length = 4
+        INIT_OPMODE_Brust_Length = 3'b010
+        INIT_OPMODE_CL = 3'b011
+    Found 12-bit register for signal <INIT_A_ADDR>.
+    Found 2-bit register for signal <INIT_BANK_ADDR>.
+    Found 14-bit register for signal <INIT_CNT>.
+    Found 4-bit register for signal <COMMAND_INIT>.
+    Found 14-bit adder for signal <INIT_CNT[13]_GND_1_o_add_3_OUT> created at line 27.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  30 D-type flip-flop(s).
+	inferred   1 Multiplexer(s).
+Unit <SDRAM_INIT> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 14-bit adder                                          : 1
+# Registers                                            : 3
+ 12-bit register                                       : 1
+ 14-bit register                                       : 1
+ 4-bit register                                        : 1
+# Multiplexers                                         : 1
+ 14-bit 2-to-1 multiplexer                             : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <COMMAND_INIT_3> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <INIT_A_ADDR_11> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+
+Synthesizing (advanced) Unit <SDRAM_INIT>.
+The following registers are absorbed into counter <INIT_CNT>: 1 register on signal <INIT_CNT>.
+Unit <SDRAM_INIT> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 14-bit up counter                                     : 1
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <INIT_A_ADDR_11> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <COMMAND_INIT_3> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <INIT_A_ADDR_0> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <INIT_A_ADDR_2> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <INIT_A_ADDR_3> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <INIT_A_ADDR_6> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <INIT_A_ADDR_7> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <INIT_A_ADDR_8> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <INIT_A_ADDR_9> (without init value) has a constant value of 0 in block <SDRAM_INIT>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <SDRAM_INIT> ...
+INFO:Xst:2261 - The FF/Latch <INIT_A_ADDR_1> in Unit <SDRAM_INIT> is equivalent to the following 2 FFs/Latches, which will be removed : <INIT_A_ADDR_4> <INIT_A_ADDR_5> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block SDRAM_INIT, actual ratio is 0.
+FlipFlop INIT_CNT_3 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 20
+ Flip-Flops                                            : 20
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : SDRAM_INIT.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 74
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 13
+#      LUT2                        : 3
+#      LUT3                        : 1
+#      LUT5                        : 4
+#      LUT6                        : 22
+#      MUXCY                       : 13
+#      VCC                         : 1
+#      XORCY                       : 14
+# FlipFlops/Latches                : 20
+#      FDC                         : 17
+#      FDP                         : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 20
+#      IBUF                        : 1
+#      OBUF                        : 19
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-2 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              20  out of  11440     0%  
+ Number of Slice LUTs:                   45  out of   5720     0%  
+    Number used as Logic:                45  out of   5720     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:     46
+   Number with an unused Flip Flop:      26  out of     46    56%  
+   Number with an unused LUT:             1  out of     46     2%  
+   Number of fully used LUT-FF pairs:    19  out of     46    41%  
+   Number of unique control sets:         1
+
+IO Utilization: 
+ Number of IOs:                          21
+ Number of bonded IOBs:                  21  out of    102    20%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Sys_clk                            | BUFGP                  | 20    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -2
+
+   Minimum period: 4.593ns (Maximum Frequency: 217.723MHz)
+   Minimum input arrival time before clock: 4.008ns
+   Maximum output required time after clock: 8.112ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Sys_clk'
+  Clock period: 4.593ns (frequency: 217.723MHz)
+  Total number of paths / destination ports: 457 / 20
+-------------------------------------------------------------------------
+Delay:               4.593ns (Levels of Logic = 3)
+  Source:            INIT_CNT_13 (FF)
+  Destination:       INIT_A_ADDR_10 (FF)
+  Source Clock:      Sys_clk rising
+  Destination Clock: Sys_clk rising
+
+  Data Path: INIT_CNT_13 to INIT_A_ADDR_10
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.525   1.156  INIT_CNT_13 (INIT_CNT_13)
+     LUT5:I0->O            5   0.254   0.841  INIT_CNT[13]_GND_1_o_select_12_OUT<3>1_SW0 (N01)
+     LUT6:I5->O           18   0.254   1.235  INIT_CNT[13]_GND_1_o_select_12_OUT<3>1 (INIT_CNT[13]_GND_1_o_select_12_OUT<3>1)
+     LUT6:I5->O            1   0.254   0.000  Mcount_INIT_CNT_eqn_01 (Mcount_INIT_CNT_eqn_0)
+     FDC:D                     0.074          INIT_CNT_0
+    ----------------------------------------
+    Total                      4.593ns (1.361ns logic, 3.232ns route)
+                                       (29.6% logic, 70.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Sys_clk'
+  Total number of paths / destination ports: 20 / 20
+-------------------------------------------------------------------------
+Offset:              4.008ns (Levels of Logic = 2)
+  Source:            Rst_n (PAD)
+  Destination:       INIT_A_ADDR_1 (FF)
+  Destination Clock: Sys_clk rising
+
+  Data Path: Rst_n to INIT_A_ADDR_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.328   0.681  Rst_n_IBUF (Rst_n_IBUF)
+     INV:I->O             20   0.255   1.285  Rst_n_inv1_INV_0 (Rst_n_inv)
+     FDC:CLR                   0.459          INIT_A_ADDR_1
+    ----------------------------------------
+    Total                      4.008ns (2.042ns logic, 1.966ns route)
+                                       (50.9% logic, 49.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Sys_clk'
+  Total number of paths / destination ports: 21 / 8
+-------------------------------------------------------------------------
+Offset:              8.112ns (Levels of Logic = 4)
+  Source:            INIT_CNT_13 (FF)
+  Destination:       INIT_DONE (PAD)
+  Source Clock:      Sys_clk rising
+
+  Data Path: INIT_CNT_13 to INIT_DONE
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.525   1.156  INIT_CNT_13 (INIT_CNT_13)
+     LUT5:I0->O            5   0.254   0.841  INIT_CNT[13]_GND_1_o_select_12_OUT<3>1_SW0 (N01)
+     LUT6:I5->O           18   0.254   1.235  INIT_CNT[13]_GND_1_o_select_12_OUT<3>1 (INIT_CNT[13]_GND_1_o_select_12_OUT<3>1)
+     LUT5:I4->O            1   0.254   0.681  INIT_DONE<13>1 (INIT_DONE_OBUF)
+     OBUF:I->O                 2.912          INIT_DONE_OBUF (INIT_DONE)
+    ----------------------------------------
+    Total                      8.112ns (4.199ns logic, 3.913ns route)
+                                       (51.8% logic, 48.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Sys_clk
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Sys_clk        |    4.593|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 6.14 secs
+ 
+--> 
+
+Total memory usage is 259768 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

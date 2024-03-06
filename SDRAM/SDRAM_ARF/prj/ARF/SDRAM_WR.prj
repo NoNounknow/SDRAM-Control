@@ -1,0 +1,2 @@
+verilog work "ipcore_dir/AS_FIFO_w2048x8_r1024x16.v"
+verilog work "../../../SDRAM_TOP/rtl/SDRAM_WR.v"
